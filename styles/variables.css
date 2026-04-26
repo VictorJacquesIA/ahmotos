@@ -1,0 +1,78 @@
+/* ===================================================
+   VARIABLES — AH Motos
+   =================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  /* --- Cores --- */
+  --color-bg:              #0a0a0a;
+  --color-surface:         #111111;
+  --color-surface-card:    #161616;
+  --color-surface-hover:   #1c1c1c;
+  --color-primary:         #dc2626;
+  --color-primary-dark:    #b91c1c;
+  --color-primary-light:   #ef4444;
+  --color-text-primary:    #f4f4f5;
+  --color-text-secondary:  #a1a1aa;
+  --color-text-muted:      #52525b;
+  --color-border:          #27272a;
+  --color-border-light:    #3f3f46;
+  --color-white:           #ffffff;
+  --color-black:           #000000;
+
+  /* --- Tipografia --- */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body:    'Work Sans', sans-serif;
+
+  /* --- Font sizes (escala fluida) --- */
+  --fs-xs:   0.75rem;    /* 12px */
+  --fs-sm:   0.875rem;   /* 14px */
+  --fs-base: 1rem;       /* 16px */
+  --fs-lg:   1.125rem;   /* 18px */
+  --fs-xl:   1.25rem;    /* 20px */
+  --fs-2xl:  1.5rem;     /* 24px */
+  --fs-3xl:  1.875rem;   /* 30px */
+  --fs-4xl:  2.25rem;    /* 36px */
+  --fs-5xl:  3rem;       /* 48px */
+  --fs-6xl:  3.75rem;    /* 60px */
+
+  /* --- Espaçamentos --- */
+  --space-xs:  0.25rem;  /* 4px  */
+  --space-sm:  0.5rem;   /* 8px  */
+  --space-md:  1rem;     /* 16px */
+  --space-lg:  1.5rem;   /* 24px */
+  --space-xl:  2rem;     /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+  --space-4xl: 5rem;     /* 80px */
+  --space-5xl: 6rem;     /* 96px */
+
+  /* --- Border radius --- */
+  --radius-sm:   0.25rem;
+  --radius-md:   0.5rem;
+  --radius-lg:   1rem;
+  --radius-full: 9999px;
+
+  /* --- Sombras --- */
+  --shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md:  0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg:  0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-red: 0 4px 24px rgba(220, 38, 38, 0.3);
+
+  /* --- Transições --- */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* --- Container --- */
+  --container-max:     1280px;
+  --container-padding: var(--space-lg);
+
+  /* --- Breakpoints (referência para JS) --- */
+  --bp-sm:  640px;
+  --bp-md:  768px;
+  --bp-lg:  1024px;
+  --bp-xl:  1280px;
+  --bp-2xl: 1536px;
+}

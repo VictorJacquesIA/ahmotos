@@ -1,0 +1,84 @@
+/* ===================================================
+   ANIMATIONS — AH Motos
+   =================================================== */
+
+/* --- Estados iniciais (antes do Intersection Observer) --- */
+.fade-up {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.fade-left {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-right {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scale-in {
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* --- Estado visível (classe adicionada via JS) --- */
+.is-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* --- Delays escalonados para cards em grid --- */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+.delay-6 { transition-delay: 0.6s; }
+
+/* --- Linha vermelha de entrada no hero --- */
+@keyframes line-grow {
+  from { width: 0; }
+  to   { width: 48px; }
+}
+
+/* --- WhatsApp float pulse --- */
+@keyframes float-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-float {
+  animation: float-pulse 2.5s ease-in-out infinite;
+}
+
+/* --- Reduce motion (acessibilidade) --- */
+@media (prefers-reduced-motion: reduce) {
+  .fade-up,
+  .fade-in,
+  .fade-left,
+  .fade-right,
+  .scale-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .whatsapp-float {
+    animation: none;
+  }
+}

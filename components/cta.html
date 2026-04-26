@@ -1,0 +1,51 @@
+<!-- =============================================
+     COMPONENTE: CTA Banner
+     Uso: inserir em qualquer ponto da página como chamada de ação
+============================================= -->
+<section class="cta-banner" aria-labelledby="cta-title">
+  <div class="container">
+    <div class="cta-banner__grid">
+
+      <div class="fade-left">
+        <h2 class="cta-banner__title" id="cta-title">Pronto para dar vida nova à sua moto?</h2>
+        <p class="cta-banner__text">Não deixe sua segurança e performance para depois. Agende agora sua revisão premium.</p>
+        <a class="btn btn--secondary" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          WhatsApp Direto
+        </a>
+      </div>
+
+      <div data-form-wrapper>
+        <form class="contact-form" data-validate aria-label="Solicitar orçamento">
+          <h3 class="contact-form__title">Solicitar Orçamento</h3>
+
+          <div class="form-field">
+            <label class="form-field__label" for="cta-name">Nome</label>
+            <input class="form-field__input" type="text" id="cta-name" name="name" placeholder="Seu nome" data-required autocomplete="name" />
+            <span class="form-field__error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label class="form-field__label" for="cta-phone">WhatsApp</label>
+            <input class="form-field__input" type="tel" id="cta-phone" name="phone" placeholder="(54) 9 9999-9999" data-required autocomplete="tel" />
+            <span class="form-field__error" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label class="form-field__label" for="cta-message">Mensagem</label>
+            <textarea class="form-field__textarea" id="cta-message" name="message" rows="3" data-required></textarea>
+            <span class="form-field__error" aria-live="polite"></span>
+          </div>
+
+          <button class="btn btn--primary form-submit" type="submit">Enviar</button>
+        </form>
+
+        <div class="form-success" aria-live="polite">
+          <div class="form-success__icon"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></div>
+          <p class="form-success__text">Enviado! Retornamos em breve.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

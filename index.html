@@ -1,339 +1,683 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- META BÁSICO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AH Motos — Oficina Premium em Não-Me-Toque, RS. Especialistas em motos de alta cilindrada. Revisão, diagnóstico digital, sincronia, pneus e venda de peças. Agende pelo WhatsApp." />
+  <meta name="keywords" content="oficina de motos, revisão moto, diagnóstico moto, Não-Me-Toque, RS, BMW, Honda, Yamaha, Kawasaki, Ducati, Harley-Davidson, alta cilindrada" />
+  <meta name="author" content="AH Motos Oficina Premium" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ahmotos.com.br/" />
 
-<html class="dark" lang="pt-BR"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>AH MOTOS | OFICINA PREMIUM</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {"on-primary-container": "#7b7979", "secondary-fixed": "#ffdad3", "on-primary-fixed": "#1c1b1b", "primary-fixed": "#e5e2e1", "tertiary-container": "#080a0a", primary: "#c9c6c5", "on-secondary-fixed-variant": "#8e1500", background: "#131313", "outline-variant": "#444748", error: "#ffb4ab", "surface-container-highest": "#353535", "error-container": "#93000a", "on-tertiary-container": "#78797a", "primary-fixed-dim": "#c9c6c5", tertiary: "#c6c6c6", "tertiary-fixed": "#e2e2e2", "on-tertiary-fixed-variant": "#454747", "secondary-container": "#cb2200", "surface-container-low": "#1c1b1b", "on-secondary": "#640c00", outline: "#8e9192", "surface-dim": "#131313", "secondary-fixed-dim": "#ffb4a5", surface: "#131313", "surface-container": "#20201f", "surface-container-lowest": "#0e0e0e", "on-tertiary": "#2f3131", "on-primary-fixed-variant": "#474646", "on-secondary-container": "#ffe2dc", "on-error": "#690005", "on-secondary-fixed": "#3e0400", "primary-container": "#0a0a0a", "surface-tint": "#c9c6c5", "tertiary-fixed-dim": "#c6c6c6", "on-error-container": "#ffdad6", "surface-bright": "#393939", "surface-variant": "#353535", secondary: "#ffb4a5", "inverse-primary": "#5f5e5e", "on-surface": "#e5e2e1", "inverse-surface": "#e5e2e1", "on-background": "#e5e2e1", "on-surface-variant": "#c4c7c7", "inverse-on-surface": "#313030", "surface-container-high": "#2a2a2a", "on-primary": "#313030", "on-tertiary-fixed": "#1a1c1c"}, borderRadius: {DEFAULT: "1rem", lg: "2rem", xl: "3rem", full: "9999px"}, spacing: {xs: "4px", base: "8px", gutter: "24px", sm: "12px", md: "24px", lg: "48px", xl: "80px", margin: "32px"}, fontFamily: {h1: ["Space Grotesk"], "label-caps": ["Space Grotesk"], "body-md": ["Work Sans"], "body-lg": ["Work Sans"], h2: ["Space Grotesk"], h3: ["Space Grotesk"]}, fontSize: {h1: ["48px", {lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700"}], "label-caps": ["14px", {lineHeight: "1", letterSpacing: "0.1em", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "1.6", fontWeight: "400"}], "body-lg": ["18px", {lineHeight: "1.6", fontWeight: "400"}], h2: ["32px", {lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700"}], h3: ["24px", {lineHeight: "1.3", letterSpacing: "0em", fontWeight: "600"}]}}}};</script>
-<style>
-        .carbon-bg {
-            background-image: linear-gradient(45deg, #111 25%, transparent 25%), 
-                              linear-gradient(-45deg, #111 25%, transparent 25%), 
-                              linear-gradient(45deg, transparent 75%, #111 75%), 
-                              linear-gradient(-45deg, transparent 75%, #111 75%);
-            background-size: 4px 4px;
-            background-color: #0d0d0d;
-        }
-        .brushed-metal {
-            background: linear-gradient(135deg, #e5e2e1 0%, #a1a1a1 50%, #e5e2e1 100%);
-            box-shadow: inset 0 1px 0 rgba(255,255,255,0.4);
-        }
-        .rim-light {
-            border-top: 1px solid rgba(224, 224, 224, 0.15);
-            border-left: 1px solid rgba(224, 224, 224, 0.1);
-        }
-    </style>
+  <!-- OPEN GRAPH -->
+  <meta property="og:title" content="AH Motos | Oficina Premium — Não-Me-Toque, RS" />
+  <meta property="og:description" content="Especialistas em alta cilindrada. Diagnóstico digital, revisão completa, pneus e peças. Agende sua revisão premium." />
+  <meta property="og:image" content="./assets/images/hero.webp" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ahmotos.com.br/" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="AH Motos Oficina Premium" />
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AH Motos | Oficina Premium — Não-Me-Toque, RS" />
+  <meta name="twitter:description" content="Especialistas em motos de alta cilindrada. Revisão, diagnóstico digital e mais." />
+  <meta name="twitter:image" content="./assets/images/hero.webp" />
+
+  <!-- FAVICON -->
+  <link rel="icon" href="./assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/favicon/favicon.ico" />
+
+  <!-- PRECONNECT fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/main.css" />
+
+  <title>AH Motos | Oficina Premium — Não-Me-Toque, RS</title>
+
+  <!-- SCHEMA.ORG -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "AH Motos Oficina Premium",
+    "description": "Especialistas em motos de alta cilindrada em Não-Me-Toque, RS.",
+    "url": "https://ahmotos.com.br",
+    "telephone": "+55549XXXXXXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Eurídes de Freitas, 719",
+      "addressLocality": "Não-Me-Toque",
+      "addressRegion": "RS",
+      "postalCode": "99470-000",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "12:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "80"
+    }
+  }
+  </script>
 </head>
-<body class="bg-background text-on-background selection:bg-secondary-container selection:text-white">
-<!-- TopAppBar -->
-<header class="bg-zinc-950/95 backdrop-blur-sm sticky top-0 z-50 border-b border-zinc-800/50 shadow-2xl shadow-black/50">
-<div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto font-['Space_Grotesk'] tracking-tight">
-<div class="flex items-center gap-2">
-<span class="text-xl font-bold tracking-widest text-zinc-100 uppercase italic">AH MOTOS</span>
-</div>
-<nav class="hidden md:flex items-center gap-8">
-<a class="text-red-600 font-bold border-b-2 border-red-600 pb-1" href="#servicos">Serviços</a>
-<a class="text-zinc-400 hover:text-zinc-100 transition-colors" href="#performance">Performance</a>
-<a class="text-zinc-400 hover:text-zinc-100 transition-colors" href="#agendamento">Agendamento</a>
-<a class="text-zinc-400 hover:text-zinc-100 transition-colors" href="#sobre">Sobre</a>
-</nav>
-<a class="bg-secondary-container text-white px-6 py-2 font-bold tracking-widest uppercase text-xs hover:bg-red-700 transition-all duration-300 active:scale-95" href="https://wa.me/yourlink">
-                WhatsApp
+
+<body>
+
+  <!-- =============================================
+       HEADER
+  ============================================= -->
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header__inner">
+
+        <a class="header__logo" href="#" aria-label="AH Motos — página inicial">
+          <span class="header__logo-text">AH <span>MOTOS</span></span>
+        </a>
+
+        <nav class="header__nav" aria-label="Navegação principal">
+          <a class="header__nav-link" href="#servicos">Serviços</a>
+          <a class="header__nav-link" href="#sobre">Sobre</a>
+          <a class="header__nav-link" href="#depoimentos">Depoimentos</a>
+          <a class="header__nav-link" href="#faq">FAQ</a>
+          <a class="header__nav-link" href="#contato">Contato</a>
+        </nav>
+
+        <div class="header__actions">
+          <a class="btn btn--primary" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer" aria-label="Abrir WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            WhatsApp
+          </a>
+        </div>
+
+        <button class="header__toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+        </button>
+
+      </div>
+
+      <nav class="header__mobile-nav" id="mobile-nav" aria-label="Navegação mobile">
+        <a class="header__mobile-nav-link" href="#servicos">Serviços</a>
+        <a class="header__mobile-nav-link" href="#sobre">Sobre</a>
+        <a class="header__mobile-nav-link" href="#depoimentos">Depoimentos</a>
+        <a class="header__mobile-nav-link" href="#faq">FAQ</a>
+        <a class="header__mobile-nav-link" href="#contato">Contato</a>
+        <div class="header__mobile-cta">
+          <a class="btn btn--primary" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            WhatsApp
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- =============================================
+         HERO
+    ============================================= -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          class="hero__bg-img"
+          src="./assets/images/hero.webp"
+          alt=""
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        />
+        <div class="hero__bg-overlay"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__badge">Oficina Premium</span>
+
+          <h1 class="hero__title">
+            Precisão, <em>Performance</em><br />e Confiança para<br />a sua Moto
+          </h1>
+
+          <p class="hero__subtitle">
+            Especialistas em alta cilindrada. Cuidamos da sua máquina com ferramentas de ponta e maestria técnica há mais de 15 anos.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+              Agendar Revisão
             </a>
-</div>
-</header>
-<main>
-<!-- Hero Section -->
-<section class="relative h-[921px] flex items-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<img class="w-full h-full object-cover opacity-60" data-alt="Cinematic close-up of a BMW GS 1250 engine and front wheel in a dark premium workshop with moody industrial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxUyLjiOFRVuEs1ENWAz0V8K20VR3JmHq1_QLUtq6Uwm28DdwSB-YEOOSS03Cym3fpM0Z88Ij6o2z1fWEt-s6QVLvEeP9J1PG6hzW6QNl_GGk9lpROyebZE13bV4QGAh23D0RGosw7SDbjKI_t2gWlhWL_hyOcttDclB7s2loIaYHKJ94sMR-VJWcqBEFjdsBvLamQWjvYtsvD9zw6pa4x32WoqCflFoBiFzS3Q826gpLBVYtahPVlE3klwlelpgoRDqoyKDoetlm2"/>
-<div class="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent"></div>
-</div>
-<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
-<div class="max-w-2xl">
-<div class="inline-block bg-secondary-container text-white px-4 py-1 mb-6 font-label-caps text-label-caps italic">OFICINA PREMIUM</div>
-<h1 class="font-h1 text-h1 text-white mb-6 uppercase tracking-tighter">
-                        Precisão, Performance e Confiança para a sua Moto
-                    </h1>
-<p class="font-body-lg text-body-lg text-zinc-400 mb-8 max-w-lg">
-                        Especialistas em alta cilindrada. Cuidamos da sua máquina com ferramentas de ponta e maestria técnica.
-                    </p>
-<div class="flex flex-wrap gap-4">
-<a class="brushed-metal text-on-primary-fixed px-8 py-4 font-label-caps text-label-caps flex items-center gap-2 hover:bg-none hover:bg-red-600 hover:text-white transition-all duration-300" href="#agendamento">
-<span class="material-symbols-outlined" data-icon="calendar_today">calendar_today</span>
-                            Agendar pelo WhatsApp
-                        </a>
-</div>
-</div>
-</div>
-</section>
-<!-- About Us -->
-<section class="py-xl bg-surface-container-lowest border-y border-zinc-900" id="sobre">
-<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-md items-center">
-<div class="relative group">
-<div class="absolute -inset-4 bg-red-600/10 rounded-xl blur-xl group-hover:bg-red-600/20 transition duration-500"></div>
-<img class="relative rounded-lg grayscale hover:grayscale-0 transition duration-500 shadow-2xl border border-zinc-800" data-alt="Expert mechanic working on a motorcycle engine with professional tools in a clean high-tech workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALTfcKIiZJM0byYDAEfyW6n3qDnJRBqJMavw_glg4uCtu4p8rGNjErw-XONwQh73jNNU1oVZkUSKJBYpAg17Es2-1SPdtkIIQft8lhxlomOD5VD0xj82J21OtElhp0GuMg9EWsJWilNFOQS_QpDJHt8xq7S9xovv_Hma9fApUsmfqcVVGXyX20ShLIFX81Hf_IY5LxGeQVnZHn6-JyWBBnrvxx_uuQTvA4yitWy2Y_65tns0igyq34G77R0JuEiIDzPJMIPbGzjmIR"/>
-</div>
-<div class="pl-0 md:pl-12">
-<h2 class="font-h2 text-h2 mb-6 uppercase">Excelência Técnica em Duas Rodas</h2>
-<p class="font-body-md text-body-md text-zinc-400 mb-6">
-                        Com décadas de experiência no universo das motocicletas de alta performance, a AH Motos nasceu da paixão pela engenharia e pelo asfalto. Nossa oficina é equipada com ferramentas de diagnóstico computadorizado e scanners de última geração.
-                    </p>
-<div class="grid grid-cols-2 gap-4 mb-8">
-<div class="p-4 bg-surface-container rim-light">
-<span class="text-secondary-container font-h1 block">15+</span>
-<span class="font-label-caps text-zinc-500 uppercase text-[10px]">Anos de Experiência</span>
-</div>
-<div class="p-4 bg-surface-container rim-light">
-<div class="flex text-yellow-500 mb-1">
-<span class="material-symbols-outlined text-sm" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined text-sm" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined text-sm" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined text-sm" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined text-sm" data-icon="star" data-weight="fill">star</span>
-</div>
-<span class="text-zinc-100 font-bold block">4.9/5 STARS</span>
-<span class="font-label-caps text-zinc-500 uppercase text-[10px]">Google Reviews</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Services Section -->
-<section class="py-xl carbon-bg" id="servicos">
-<div class="max-w-7xl mx-auto px-6">
-<div class="text-center mb-xl">
-<span class="text-secondary-container font-label-caps tracking-widest uppercase">Nossas Especialidades</span>
-<h2 class="font-h2 text-h2 text-white mt-2 uppercase">Serviços de Alta Performance</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
-<!-- Service Card 1 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="engineering">engineering</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Revisão Completa</h3>
-<p class="font-body-md text-zinc-400 mb-6">Desmontagem, limpeza e lubrificação detalhada de todos os componentes vitais da sua moto.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-<!-- Service Card 2 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="monitor_heart">monitor_heart</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Diagnóstico Digital</h3>
-<p class="font-body-md text-zinc-400 mb-6">Identificação precisa de falhas eletrônicas usando scanners de última geração multimarcas.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-<!-- Service Card 3 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="settings_input_component">settings_input_component</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Sincronia e Injeção</h3>
-<p class="font-body-md text-zinc-400 mb-6">Ajuste fino de válvulas e sincronização de corpos de borboleta para resposta máxima.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-<!-- Service Card 4 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="oil_barrel">oil_barrel</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Óleo Motul &amp; Filtros</h3>
-<p class="font-body-md text-zinc-400 mb-6">Troca de fluidos premium e filtros originais para garantir a longevidade do seu motor.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-<!-- Service Card 5 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="tire_repair">tire_repair</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Pneus &amp; Rodas</h3>
-<p class="font-body-md text-zinc-400 mb-6">Montagem, balanceamento e alinhamento com as melhores marcas do mercado mundial.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-<!-- Service Card 6 -->
-<div class="bg-zinc-950/80 p-8 rim-light group hover:border-red-600/50 transition-all duration-300">
-<span class="material-symbols-outlined text-red-600 text-4xl mb-6" data-icon="shopping_cart">shopping_cart</span>
-<h3 class="font-h3 text-h3 text-white mb-4 uppercase">Venda de Peças</h3>
-<p class="font-body-md text-zinc-400 mb-6">Estoque selecionado de peças originais e acessórios de alta performance a pronta entrega.</p>
-<div class="h-1 w-12 bg-red-600 transition-all duration-300 group-hover:w-full"></div>
-</div>
-</div>
-</div>
-</section>
-<!-- Brands Grid -->
-<section class="py-md bg-zinc-950 border-y border-zinc-900">
-<div class="max-w-7xl mx-auto px-6 overflow-hidden">
-<div class="flex flex-wrap justify-center gap-12 items-center opacity-40 grayscale transition-all duration-500 hover:grayscale-0 hover:opacity-100">
-<span class="font-h3 text-white tracking-widest italic opacity-50">BMW</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">HONDA</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">YAMAHA</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">KAWASAKI</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">SUZUKI</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">DUCATI</span>
-<span class="font-h3 text-white tracking-widest italic opacity-50">HARLEY-DAVIDSON</span>
-</div>
-</div>
-</section>
-<!-- Gallery -->
-<section class="py-xl bg-surface">
-<div class="max-w-7xl mx-auto px-6">
-<h2 class="font-h2 text-h2 mb-xl uppercase text-center">Nosso Campo de Batalha</h2>
-<div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[250px]">
-<div class="md:col-span-2 md:row-span-2 overflow-hidden relative">
-<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Top view of an organized motorcycle workshop with a lift and tools ready for action" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChzJxu2GnVFbCPvolWzsPHsnHD14isLKpKevlD1MvcEYwn5o6hiIKHRlCURrsc-5vpdpCcuSrsfkmuaMSfMA_V80pMJcpEdjz66S7U8-gU14tT9oB2Ubf9PWWkPrfuwzA9KF1m-2Q6QxhwgOS49VRDQ13ZWc4xTfAOLdMYwvBzgJ4scVZa58EshyUeF1SoYe0W9MsdeVfNuNYZ6mBDM0POee0Y7HGLMh2fmY0onXMw2ZoziZvB80FHs2yLD33nAiwP6lasteGRj3Qx"/>
-</div>
-<div class="overflow-hidden">
-<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Close-up of polished motorcycle engine cylinder head with chrome reflecting studio lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkoVp5RjN14lw_gEdazb-PznpdObelr21VNqPN3p-pRwmgEbGxU3nbdCOW9J-_4rudcldoMEVipqcsMshB6H1-5BlFMxCY04AzK9IDolUrkY4C3S-mbfiJiPtj0xAHLeKXKFO3NxNWCA97gjrBS2mQDxVhP2qlKHEZqhxMKU4BD8HN-8mqyIyR9PfzVTxG1SiPBQ-1ApcAdrRPgRRt6EIPCda8zdhvvN2Lh831PpoEGSc73LMJxa_76P-EWxyH-SdTBXlFVt-Eyhmp"/>
-</div>
-<div class="overflow-hidden">
-<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Mechanic hands using a torque wrench on a motorcycle axle in slow motion style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbdvpse3bS5q2CAbu5cyC4-nSjOmKFU1DG5ANMg2ndd_3xnTtlpVXYJH6zZZjqMZGeT3vvpdhJrmVwVHtS4at6uNhkdDzeD9Dcwk4MsvSluD4ZgFp873_3LfyqtTHRZvjuzYLATfNM2o6kcLwdhHhDtCjqddBOrDuI5r5Kf5wiY5lXhKmTUKEKD_zMWPvpCc7Ab6RW-0To_NuMSZ1ApTGovQoujRVIikfGKG30HPeFkW_oSI7Zx4YScqpK4QGgvlz-31yAU-kB2zwK"/>
-</div>
-<div class="md:col-span-2 overflow-hidden">
-<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Row of premium high-displacement motorcycles lined up in a workshop waiting for service" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQmZLIuAf4JPlGBOQ21lzm4mRDaJ3o9tKMqmxeMR0ooptJUa1J29VxrklttdwyzNEeDj_YpL5z-54c-_qR9g4uWElOkfaJ4Caa_7O1_l6gexECoas9jKUvgdx__Acq5mMslYXBLO1o4smgBWJDDMgRdcDqtiELO9FaNru-O5uVA8UG5das7xxfcdBOoVlP5P7-ihH9Rn9l9TduFUFa3Ln-63jvegpHqeYxv0I7o1Ik4ORPS559VHhVdmk-u1VwWYeS3PDH5dFnkLcT"/>
-</div>
-</div>
-</div>
-</section>
-<!-- Testimonials -->
-<section class="py-xl bg-surface-container-low overflow-hidden">
-<div class="max-w-7xl mx-auto px-6">
-<h2 class="font-h2 text-h2 mb-xl uppercase text-center">O Que Dizem os Pilotos</h2>
-<div class="grid md:grid-cols-3 gap-gutter">
-<div class="bg-zinc-950 p-8 border-l-4 border-red-600 shadow-xl">
-<div class="flex text-yellow-500 mb-4">
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-</div>
-<p class="font-body-md italic text-zinc-300 mb-6">"Melhor oficina da região para motos grandes. O atendimento é técnico e honesto. Minha Tiger 900 ficou perfeita!"</p>
-<span class="font-label-caps uppercase text-white">— Ricardo Silveira</span>
-</div>
-<div class="bg-zinc-950 p-8 border-l-4 border-red-600 shadow-xl">
-<div class="flex text-yellow-500 mb-4">
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-</div>
-<p class="font-body-md italic text-zinc-300 mb-6">"Profissionais que realmente entendem o que fazem. Equipamentos modernos e limpeza impecável no box."</p>
-<span class="font-label-caps uppercase text-white">— André Mendes</span>
-</div>
-<div class="bg-zinc-950 p-8 border-l-4 border-red-600 shadow-xl">
-<div class="flex text-yellow-500 mb-4">
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-<span class="material-symbols-outlined" data-icon="star" data-weight="fill">star</span>
-</div>
-<p class="font-body-md italic text-zinc-300 mb-6">"Fiz a revisão da minha BMW e o serviço foi de concessionária com preço justo. Recomendo de olhos fechados."</p>
-<span class="font-label-caps uppercase text-white">— Lucas Ferreira</span>
-</div>
-</div>
-</div>
-</section>
-<!-- CTA Center -->
-<section class="py-xl relative" id="agendamento">
-<div class="absolute inset-0 z-0 bg-red-700/90">
-<div class="w-full h-full carbon-bg opacity-30"></div>
-</div>
-<div class="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-xl items-center">
-<div class="text-white">
-<h2 class="font-h1 text-h1 uppercase mb-6">Pronto para dar vida nova à sua moto?</h2>
-<p class="font-body-lg text-white/80 mb-8">
-                        Não deixe sua segurança e performance para depois. Agende agora sua revisão premium.
-                    </p>
-<a class="inline-flex items-center gap-4 bg-zinc-950 text-white px-10 py-5 font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all" href="https://wa.me/yourlink">
-<span class="material-symbols-outlined" data-icon="chat">chat</span>
-                        WhatsApp Direto
-                    </a>
-</div>
-<div class="bg-zinc-950 p-8 rim-light">
-<form class="space-y-4">
-<div>
-<label class="block font-label-caps text-[10px] text-zinc-500 mb-1 uppercase">Nome Completo</label>
-<input class="w-full bg-surface-container border-0 border-b border-zinc-800 focus:border-red-600 focus:ring-0 text-white transition-all" type="text"/>
-</div>
-<div>
-<label class="block font-label-caps text-[10px] text-zinc-500 mb-1 uppercase">WhatsApp</label>
-<input class="w-full bg-surface-container border-0 border-b border-zinc-800 focus:border-red-600 focus:ring-0 text-white transition-all" type="tel"/>
-</div>
-<div>
-<label class="block font-label-caps text-[10px] text-zinc-500 mb-1 uppercase">Mensagem / Modelo da Moto</label>
-<textarea class="w-full bg-surface-container border-0 border-b border-zinc-800 focus:border-red-600 focus:ring-0 text-white transition-all" rows="3"></textarea>
-</div>
-<button class="w-full brushed-metal text-black font-bold py-4 uppercase tracking-widest active:scale-95 transition-transform" type="submit">
-                            Solicitar Orçamento
-                        </button>
-</form>
-</div>
-</div>
-</section>
-<!-- Location & Hours -->
-<section class="py-xl bg-background">
-<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-gutter">
-<div class="h-[400px] bg-zinc-900 border border-zinc-800 relative">
-<div class="absolute inset-0 grayscale contrast-125 opacity-70">
-<!-- Placeholder for Map -->
-<div class="w-full h-full flex items-center justify-center bg-zinc-900 text-zinc-700 overflow-hidden">
-<img class="w-full h-full object-cover" data-alt="Stylized dark grayscale map of a city showing street layouts and a central red pin marker" data-location="Não-Me-Toque, RS" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJR-bvSmQE5P9L8KXCeHRQYtHScPNB0tKlTZl1KfsJKVaeJxEHc42XrjCQzXiEqyFNqdj2j8C9YphYGK4tPlAelNK5zRqMaPYE5ggALqM6rGa_BLJ6j5sBbA2rylBa_m7Q5T1kJgdDw33Zkigm_w8AfiS4o_CiZuDBfRWMmiXjJqu-wm_hm1XmaF90b4lv2b4rF_idrZMNXZjSfKwtOyWeM9bKt2rEGML8OS4-1eb0rmpzbzj4NzSYQU9APBDsH-bz2py9xpl_RXfb"/>
-</div>
-</div>
-<div class="absolute bottom-4 left-4 right-4 bg-zinc-950/90 p-4 backdrop-blur-sm border border-zinc-800">
-<p class="text-white font-label-caps text-xs">R. Eurídes de Freitas, 719, Não-Me-Toque - RS</p>
-</div>
-</div>
-<div class="flex flex-col justify-between">
-<div>
-<h2 class="font-h2 text-h2 uppercase mb-6">Horário de Funcionamento</h2>
-<table class="w-full font-body-md text-zinc-400">
-<tbody><tr class="border-b border-zinc-900">
-<td class="py-3 uppercase font-bold text-zinc-100">Segunda — Sexta</td>
-<td class="py-3 text-right">08:00 – 12:00 | 13:30 – 18:00</td>
-</tr>
-<tr class="border-b border-zinc-900">
-<td class="py-3 uppercase font-bold text-zinc-100">Sábado</td>
-<td class="py-3 text-right">08:00 – 12:00</td>
-</tr>
-<tr>
-<td class="py-3 uppercase font-bold text-zinc-100">Domingo</td>
-<td class="py-3 text-right text-red-600">FECHADO</td>
-</tr>
-</tbody></table>
-</div>
-<div class="mt-8">
-<h4 class="font-label-caps text-zinc-500 mb-4">Siga-nos nas redes</h4>
-<div class="flex gap-4">
-<a class="w-12 h-12 flex items-center justify-center bg-zinc-900 hover:bg-red-600 transition-colors" href="#">
-<span class="material-symbols-outlined text-white" data-icon="share">share</span>
-</a>
-<a class="w-12 h-12 flex items-center justify-center bg-zinc-900 hover:bg-red-600 transition-colors" href="#">
-<span class="material-symbols-outlined text-white" data-icon="photo_camera">photo_camera</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-zinc-950 border-t-2 border-zinc-800 w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="flex flex-col items-center md:items-start">
-<span class="text-zinc-100 font-black italic text-xl uppercase font-['Space_Grotesk'] mb-2">AH MOTOS</span>
-<p class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-zinc-600">
-                © 2024 AH MOTOS OFICINA PREMIUM. PERFORMANCE &amp; MASTERY.
+            <a class="btn btn--outline" href="#servicos">Ver Serviços</a>
+          </div>
+
+          <div class="hero__stats" aria-label="Estatísticas">
+            <div class="hero__stat">
+              <span class="hero__stat-value">15+</span>
+              <span class="hero__stat-label">Anos de experiência</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-value">4.9</span>
+              <span class="hero__stat-label">Google Reviews</span>
+            </div>
+            <div class="hero__stat">
+              <span class="hero__stat-value">7+</span>
+              <span class="hero__stat-label">Marcas atendidas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#sobre" aria-label="Rolar para baixo">
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- =============================================
+         SOBRE
+    ============================================= -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__grid">
+
+          <div class="about__image-wrapper fade-left">
+            <img
+              class="about__image"
+              src="./assets/images/about.webp"
+              alt="Mecânico especialista trabalhando em motor de moto de alta cilindrada"
+              width="600"
+              height="450"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="about__content fade-right">
+            <span class="section-label">Nossa história</span>
+            <h2 class="section-title" id="about-title">Excelência Técnica em Duas Rodas</h2>
+            <div class="divider"></div>
+            <p class="about__text">
+              Com décadas de experiência no universo das motocicletas de alta performance, a AH Motos nasceu da paixão pela engenharia e pelo asfalto. Nossa oficina é equipada com ferramentas de diagnóstico computadorizado e scanners de última geração para todas as marcas.
             </p>
-</div>
-<nav class="flex gap-8">
-<a class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-zinc-600 hover:text-zinc-100 transition-colors" href="#">Privacidade</a>
-<a class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-zinc-600 hover:text-zinc-100 transition-colors" href="#">Termos</a>
-<a class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-zinc-600 hover:text-zinc-100 transition-colors" href="#">Localização</a>
-<a class="font-['Space_Grotesk'] uppercase tracking-widest text-[10px] text-zinc-600 hover:text-zinc-100 transition-colors" href="#">Equipe</a>
-</nav>
-</footer>
-<!-- Floating WhatsApp Button -->
-<a class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-90 transition-all duration-300" href="https://wa.me/yourlink">
-<svg class="w-8 h-8 fill-current" viewbox="0 0 24 24">
-<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
-</svg>
-</a>
-</body></html>
+
+            <div class="about__stats">
+              <div class="about__stat">
+                <span class="about__stat-value">15+</span>
+                <span class="about__stat-label">Anos de experiência</span>
+              </div>
+              <div class="about__stat">
+                <span class="about__stat-value">500+</span>
+                <span class="about__stat-label">Clientes atendidos</span>
+              </div>
+            </div>
+
+            <div class="about__rating">
+              <span class="about__rating-score">4.9</span>
+              <div class="about__rating-info">
+                <div class="stars" aria-label="4.9 de 5 estrelas">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <span class="about__rating-label">Google Reviews</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SERVIÇOS
+    ============================================= -->
+    <section class="services" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+
+        <header class="section-header fade-up">
+          <span class="section-label">Nossas Especialidades</span>
+          <h2 class="section-title" id="services-title">Serviços de Alta Performance</h2>
+          <p class="section-subtitle">Da revisão completa ao diagnóstico eletrônico, tudo para manter sua moto no limite máximo.</p>
+        </header>
+
+        <div class="services__grid">
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-screwdriver-wrench services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Revisão Completa</h3>
+            <p class="services__card-text">Desmontagem, limpeza e lubrificação detalhada de todos os componentes vitais da sua moto.</p>
+          </article>
+
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-heart-pulse services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Diagnóstico Digital</h3>
+            <p class="services__card-text">Identificação precisa de falhas eletrônicas usando scanners de última geração multimarcas.</p>
+          </article>
+
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-sliders services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Sincronia e Injeção</h3>
+            <p class="services__card-text">Ajuste fino de válvulas e sincronização de corpos de borboleta para resposta máxima.</p>
+          </article>
+
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-oil-can services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Óleo Motul &amp; Filtros</h3>
+            <p class="services__card-text">Troca de fluidos premium e filtros originais para garantir a longevidade do seu motor.</p>
+          </article>
+
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-circle-dot services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Pneus &amp; Rodas</h3>
+            <p class="services__card-text">Montagem, balanceamento e alinhamento com as melhores marcas do mercado mundial.</p>
+          </article>
+
+          <article class="services__card fade-up">
+            <i class="fa-solid fa-cart-shopping services__card-icon" aria-hidden="true"></i>
+            <h3 class="services__card-title">Venda de Peças</h3>
+            <p class="services__card-text">Estoque selecionado de peças originais e acessórios de alta performance a pronta entrega.</p>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================
+         MARCAS
+    ============================================= -->
+    <section class="brands" aria-label="Marcas atendidas">
+      <div class="container">
+        <ul class="brands__list" aria-label="Lista de marcas atendidas">
+          <li class="brands__item">BMW</li>
+          <li class="brands__item">Honda</li>
+          <li class="brands__item">Yamaha</li>
+          <li class="brands__item">Kawasaki</li>
+          <li class="brands__item">Suzuki</li>
+          <li class="brands__item">Ducati</li>
+          <li class="brands__item">Harley-Davidson</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =============================================
+         GALERIA
+    ============================================= -->
+    <section class="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-header fade-up">
+          <span class="section-label">Nosso espaço</span>
+          <h2 class="section-title" id="gallery-title">Nosso Campo de Batalha</h2>
+        </header>
+
+        <div class="gallery__grid">
+          <div class="gallery__item gallery__item--large">
+            <img class="gallery__img" src="./assets/images/gallery-1.webp" alt="Vista geral da oficina AH Motos com elevador e ferramentas" width="600" height="500" loading="lazy" />
+          </div>
+          <div class="gallery__item">
+            <img class="gallery__img" src="./assets/images/gallery-2.webp" alt="Motor de moto em detalhes" width="300" height="250" loading="lazy" />
+          </div>
+          <div class="gallery__item">
+            <img class="gallery__img" src="./assets/images/gallery-3.webp" alt="Mecânico utilizando torquímetro" width="300" height="250" loading="lazy" />
+          </div>
+          <div class="gallery__item gallery__item--wide">
+            <img class="gallery__img" src="./assets/images/gallery-4.webp" alt="Fileira de motos premium aguardando revisão" width="600" height="250" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         DEPOIMENTOS
+    ============================================= -->
+    <section class="testimonials" id="depoimentos" aria-labelledby="testimonials-title">
+      <div class="container">
+
+        <header class="section-header fade-up">
+          <span class="section-label">Prova Social</span>
+          <h2 class="section-title" id="testimonials-title">O Que Dizem os Pilotos</h2>
+        </header>
+
+        <div class="testimonials__grid">
+          <article class="testimonials__card fade-up">
+            <div class="stars" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p class="testimonials__quote">"Melhor oficina da região para motos grandes. O atendimento é técnico e honesto. Minha Tiger 900 ficou perfeita!"</p>
+            </blockquote>
+            <footer>
+              <cite class="testimonials__author">Ricardo Silveira</cite>
+              <p class="testimonials__meta">Triumph Tiger 900</p>
+            </footer>
+          </article>
+
+          <article class="testimonials__card fade-up">
+            <div class="stars" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p class="testimonials__quote">"Profissionais que realmente entendem o que fazem. Equipamentos modernos e limpeza impecável no box."</p>
+            </blockquote>
+            <footer>
+              <cite class="testimonials__author">André Mendes</cite>
+              <p class="testimonials__meta">Kawasaki Z900</p>
+            </footer>
+          </article>
+
+          <article class="testimonials__card fade-up">
+            <div class="stars" aria-label="5 de 5 estrelas">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote>
+              <p class="testimonials__quote">"Fiz a revisão da minha BMW e o serviço foi de concessionária com preço justo. Recomendo de olhos fechados."</p>
+            </blockquote>
+            <footer>
+              <cite class="testimonials__author">Lucas Ferreira</cite>
+              <p class="testimonials__meta">BMW R 1250 GS</p>
+            </footer>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================
+         FAQ
+    ============================================= -->
+    <section class="faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+
+        <header class="section-header fade-up">
+          <span class="section-label">Dúvidas frequentes</span>
+          <h2 class="section-title" id="faq-title">Perguntas Frequentes</h2>
+        </header>
+
+        <div class="faq" role="list">
+
+          <div class="faq__item fade-up" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              <span>Com que frequência devo fazer a revisão da minha moto?</span>
+              <i class="fa-solid fa-chevron-down faq__icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>Recomendamos revisão a cada 5.000 km ou 6 meses, o que ocorrer primeiro. Motos de alta cilindrada exigem maior atenção para garantir segurança e performance máxima.</p>
+            </div>
+          </div>
+
+          <div class="faq__item fade-up" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              <span>Vocês atendem todas as marcas?</span>
+              <i class="fa-solid fa-chevron-down faq__icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>Sim. Atendemos BMW, Honda, Yamaha, Kawasaki, Suzuki, Ducati, Harley-Davidson e demais marcas de alta cilindrada com scanner multimarcas de última geração.</p>
+            </div>
+          </div>
+
+          <div class="faq__item fade-up" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              <span>Como posso agendar uma revisão?</span>
+              <i class="fa-solid fa-chevron-down faq__icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>O agendamento é feito diretamente pelo WhatsApp ou pelo formulário de contato nesta página. Retornamos em até 1 hora durante o horário comercial.</p>
+            </div>
+          </div>
+
+          <div class="faq__item fade-up" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              <span>As peças utilizadas são originais?</span>
+              <i class="fa-solid fa-chevron-down faq__icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>Trabalhamos preferencialmente com peças originais ou de linha OEM certificadas. Para fluidos, utilizamos exclusivamente a linha Motul para garantir a performance e a garantia do motor.</p>
+            </div>
+          </div>
+
+          <div class="faq__item fade-up" role="listitem">
+            <button class="faq__question" aria-expanded="false">
+              <span>Qual o prazo médio de uma revisão completa?</span>
+              <i class="fa-solid fa-chevron-down faq__icon" aria-hidden="true"></i>
+            </button>
+            <div class="faq__answer" hidden>
+              <p>Uma revisão completa leva em média 1 dia útil. Serviços mais específicos como reforma de suspensão podem levar de 2 a 5 dias. Sempre informamos o prazo no orçamento.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         CTA BANNER
+    ============================================= -->
+    <section class="cta-banner" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-banner__grid">
+
+          <div class="fade-left">
+            <h2 class="cta-banner__title" id="cta-title">Pronto para dar vida nova à sua moto?</h2>
+            <p class="cta-banner__text">Não deixe sua segurança e performance para depois. Agende agora sua revisão premium.</p>
+            <a class="btn btn--secondary" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              WhatsApp Direto
+            </a>
+          </div>
+
+          <div data-form-wrapper>
+            <form class="contact-form" data-validate aria-label="Solicitar orçamento">
+              <h3 class="contact-form__title">Solicitar Orçamento</h3>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label class="form-field__label" for="name">Nome Completo</label>
+                  <input class="form-field__input" type="text" id="name" name="name" placeholder="Seu nome" data-required autocomplete="name" />
+                  <span class="form-field__error" aria-live="polite"></span>
+                </div>
+                <div class="form-field">
+                  <label class="form-field__label" for="phone">WhatsApp</label>
+                  <input class="form-field__input" type="tel" id="phone" name="phone" placeholder="(54) 9 9999-9999" data-required autocomplete="tel" />
+                  <span class="form-field__error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label class="form-field__label" for="service">Serviço desejado</label>
+                <select class="form-field__select" id="service" name="service">
+                  <option value="">Selecione um serviço</option>
+                  <option value="revisao">Revisão Completa</option>
+                  <option value="diagnostico">Diagnóstico Digital</option>
+                  <option value="sincronia">Sincronia e Injeção</option>
+                  <option value="oleo">Óleo e Filtros</option>
+                  <option value="pneus">Pneus e Rodas</option>
+                  <option value="pecas">Venda de Peças</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label class="form-field__label" for="message">Moto / Mensagem</label>
+                <textarea class="form-field__textarea" id="message" name="message" placeholder="Ex: BMW R 1250 GS 2022 — revisão dos 10.000 km" rows="3" data-required></textarea>
+                <span class="form-field__error" aria-live="polite"></span>
+              </div>
+
+              <button class="btn btn--primary form-submit" type="submit">Solicitar Orçamento</button>
+            </form>
+
+            <div class="form-success" aria-live="polite">
+              <div class="form-success__icon"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></div>
+              <p class="form-success__text">Mensagem enviada!<br />Retornamos em breve pelo WhatsApp.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         LOCALIZAÇÃO
+    ============================================= -->
+    <section class="location" id="contato" aria-labelledby="location-title">
+      <div class="container">
+        <div class="location__grid">
+
+          <div class="location__map fade-left">
+            <img class="location__map-img" src="./assets/images/map.webp" alt="Mapa da localização da AH Motos em Não-Me-Toque, RS" width="600" height="420" loading="lazy" />
+            <div class="location__map-pin">
+              <address class="location__map-address">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                R. Eurídes de Freitas, 719 — Não-Me-Toque, RS
+              </address>
+            </div>
+          </div>
+
+          <div class="location__info fade-right">
+            <div>
+              <h2 class="location__hours-title" id="location-title">Horário de Funcionamento</h2>
+              <table class="location__hours-table" aria-label="Horários de funcionamento">
+                <tbody>
+                  <tr>
+                    <td>Segunda — Sexta</td>
+                    <td>08:00 – 12:00 | 13:30 – 18:00</td>
+                  </tr>
+                  <tr>
+                    <td>Sábado</td>
+                    <td>08:00 – 12:00</td>
+                  </tr>
+                  <tr>
+                    <td>Domingo</td>
+                    <td class="location__hours-closed">Fechado</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div>
+              <p class="location__social-title">Siga nas redes sociais</p>
+              <div class="location__social-links">
+                <a class="location__social-link" href="#" aria-label="Instagram da AH Motos" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="location__social-link" href="#" aria-label="Facebook da AH Motos" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a class="location__social-link" href="https://wa.me/SEUNUMERO" aria-label="WhatsApp da AH Motos" target="_blank" rel="noopener noreferrer">
+                  <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================================
+       FOOTER
+  ============================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div>
+          <span class="footer__brand-logo">AH <span>MOTOS</span></span>
+          <p class="footer__brand-text">Oficina Premium especializada em motos de alta cilindrada em Não-Me-Toque, RS. Precisão, performance e confiança.</p>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a class="footer__social-link" href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            </a>
+            <a class="footer__social-link" href="https://wa.me/SEUNUMERO" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Navegação</p>
+          <nav class="footer__nav" aria-label="Links do rodapé">
+            <a class="footer__nav-link" href="#servicos">Serviços</a>
+            <a class="footer__nav-link" href="#sobre">Sobre</a>
+            <a class="footer__nav-link" href="#depoimentos">Depoimentos</a>
+            <a class="footer__nav-link" href="#faq">FAQ</a>
+            <a class="footer__nav-link" href="#contato">Contato</a>
+          </nav>
+        </div>
+
+        <div>
+          <p class="footer__col-title">Contato</p>
+          <nav class="footer__nav" aria-label="Informações de contato">
+            <a class="footer__nav-link" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp
+            </a>
+            <a class="footer__nav-link" href="https://maps.google.com/?q=R.+Eurídes+de+Freitas,+719,+Não-Me-Toque,+RS" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Como chegar
+            </a>
+            <span class="footer__nav-link">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i> Seg–Sex: 08h–18h
+            </span>
+          </nav>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 AH Motos Oficina Premium. Todos os direitos reservados.</p>
+        <nav class="footer__legal" aria-label="Links legais">
+          <a class="footer__legal-link" href="#">Privacidade</a>
+          <a class="footer__legal-link" href="#">Termos</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a class="whatsapp-float" href="https://wa.me/SEUNUMERO" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- JS -->
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>

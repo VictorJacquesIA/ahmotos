@@ -1,0 +1,13 @@
+{
+  "name": "ah-motos-nmt-rs",
+  "version": "1.0.0",
+  "description": "Landing page - AH Motos Oficina Premium | Não-Me-Toque, RS",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist --public-url ./",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.0"
+  }
+}
