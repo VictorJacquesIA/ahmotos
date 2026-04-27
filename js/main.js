@@ -31,6 +31,7 @@ function initHeader() {
     on(toggle, 'click', () => {
       const open = mobileNav.classList.toggle('header__mobile-nav--open');
       toggle.classList.toggle('header__toggle--active', open);
+      header.classList.toggle('header--menu-open', open);
       toggle.setAttribute('aria-expanded', String(open));
       document.body.style.overflow = open ? 'hidden' : '';
     });
@@ -39,6 +40,7 @@ function initHeader() {
     on($$('.header__mobile-nav-link', mobileNav), 'click', () => {
       mobileNav.classList.remove('header__mobile-nav--open');
       toggle.classList.remove('header__toggle--active');
+      header.classList.remove('header--menu-open');
       toggle.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
     });
@@ -48,6 +50,7 @@ function initHeader() {
       if (!header.contains(e.target)) {
         mobileNav.classList.remove('header__mobile-nav--open');
         toggle.classList.remove('header__toggle--active');
+        header.classList.remove('header--menu-open');
         toggle.setAttribute('aria-expanded', 'false');
         document.body.style.overflow = '';
       }
