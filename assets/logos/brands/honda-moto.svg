@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" fill="none">
+  <!-- Honda Wings simplified -->
+  <g fill="white">
+    <!-- Left wing -->
+    <path d="M20,42 C30,18 65,12 110,30 C85,18 48,24 32,42 Z" opacity="0.95"/>
+    <!-- Right wing -->
+    <path d="M220,42 C210,18 175,12 130,30 C155,18 192,24 208,42 Z" opacity="0.95"/>
+    <!-- Wing inner detail left -->
+    <path d="M38,40 C48,22 72,18 105,32 C82,22 56,28 42,40 Z" opacity="0.4"/>
+    <!-- Wing inner detail right -->
+    <path d="M202,40 C192,22 168,18 135,32 C158,22 184,28 198,40 Z" opacity="0.4"/>
+  </g>
+  <!-- HONDA wordmark -->
+  <text x="120" y="62" text-anchor="middle"
+    font-family="'Arial Black', Impact, Helvetica, sans-serif"
+    font-weight="900" font-size="18" fill="white" letter-spacing="7">HONDA</text>
+</svg>

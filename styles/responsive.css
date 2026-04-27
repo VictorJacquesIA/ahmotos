@@ -73,6 +73,10 @@
     padding: var(--space-md) 0;
   }
 
+  .header__logo-img {
+    height: 64px;
+  }
+
   .header__logo-text {
     font-size: var(--fs-lg);
   }
@@ -125,6 +129,15 @@
   .gallery__item {
     grid-column: span 1;
     height: 240px;
+  }
+
+  /* Primeira imagem: mais altura para caber pessoa + moto, posição centralizada */
+  .gallery__item--large {
+    height: 400px;
+  }
+
+  .gallery__item--large .gallery__img {
+    object-position: center 20%;
   }
 
   /* Testimonials */

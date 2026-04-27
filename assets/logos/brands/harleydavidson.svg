@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 70" fill="none">
+  <!-- Bar & Shield simplified outline -->
+  <path d="M20,10 L50,10 L50,60 L35,68 L20,60 Z" fill="none" stroke="white" stroke-width="2.5"/>
+  <line x1="20" y1="33" x2="50" y2="33" stroke="white" stroke-width="2"/>
+  <text x="35" y="28" text-anchor="middle"
+    font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="white" letter-spacing="1">HD</text>
+  <!-- Wordmark -->
+  <text x="155" y="28" text-anchor="middle"
+    font-family="'Arial Black', Helvetica, sans-serif"
+    font-weight="900" font-size="15" fill="white" letter-spacing="3">HARLEY</text>
+  <text x="155" y="52" text-anchor="middle"
+    font-family="'Arial Black', Helvetica, sans-serif"
+    font-weight="900" font-size="15" fill="white" letter-spacing="2">DAVIDSON</text>
+</svg>

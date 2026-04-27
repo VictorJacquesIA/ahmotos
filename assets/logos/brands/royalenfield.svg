@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 65" fill="none">
+  <text x="140" y="26" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700" font-size="16" fill="white" letter-spacing="5">ROYAL</text>
+  <line x1="30" y1="34" x2="250" y2="34" stroke="white" stroke-width="1" opacity="0.6"/>
+  <text x="140" y="54" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-weight="700" font-size="16" fill="white" letter-spacing="4">ENFIELD</text>
+</svg>

@@ -52,6 +52,13 @@
   color: var(--color-primary);
 }
 
+.header__logo-img {
+  height: 90px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 /* --- Nav desktop --- */
 .header__nav {
   display: flex;
