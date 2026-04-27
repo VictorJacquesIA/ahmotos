@@ -140,6 +140,10 @@
     object-position: center 20%;
   }
 
+  .gallery__item:nth-child(2) .gallery__img {
+    object-position: center 20%;
+  }
+
   /* Testimonials */
   .testimonials__grid {
     grid-template-columns: 1fr;
