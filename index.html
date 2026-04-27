@@ -66,12 +66,6 @@
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "08:00",
         "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "08:00",
-        "closes": "12:00"
       }
     ],
     "aggregateRating": {
@@ -558,7 +552,7 @@
                   </tr>
                   <tr>
                     <td>Sábado</td>
-                    <td>08:00 – 12:00</td>
+                    <td class="location__hours-closed">Fechado</td>
                   </tr>
                   <tr>
                     <td>Domingo</td>
@@ -598,7 +592,7 @@
 
       <div class="footer__grid">
 
-        <div>
+        <div class="footer__col--brand">
           <img src="./assets/logos/logo.png" alt="AH Motos" class="footer__brand-logo-img" height="36" />
           <p class="footer__brand-text">Oficina Premium especializada em motos de alta cilindrada em Não-Me-Toque, RS. Precisão, performance e confiança.</p>
           <div class="footer__social">
@@ -635,7 +629,7 @@
               <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Como chegar
             </a>
             <span class="footer__nav-link">
-              <i class="fa-solid fa-clock" aria-hidden="true"></i> Seg–Sex: 08h–18h
+              <i class="fa-solid fa-clock" aria-hidden="true"></i> Seg–Sex: 08h–12h | 13h30–18h
             </span>
           </nav>
         </div>
